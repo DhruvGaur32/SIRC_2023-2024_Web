@@ -240,8 +240,8 @@ nav ul li a:hover {
 
 #Hobbies:hover {
     transform: translateY(-0.5vw);
-    background-color: #ffa726;
-    color: rgb(215, 215, 215);
+    background-color: #42a5f5;
+      color: whitesmoke;
     border-color: #7ac0f9;
 
 }
