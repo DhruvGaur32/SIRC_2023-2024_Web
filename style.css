@@ -240,7 +240,7 @@ nav ul li a:hover {
 
 #Hobbies:hover {
     transform: translateY(-0.5vw);
-    background-color: #42a5f5;
+    background-color: #ffa726;
     color: rgb(215, 215, 215);
     border-color: #7ac0f9;
 
@@ -301,7 +301,10 @@ nav ul li a:hover {
     transform: translateY(-0.5vh);
     color: black;
 }
-
+#contact>a>h2:hover {
+    transform: translateY(-0.5vh);
+    color: black;
+}
 #contact>a {
     color: rgb(71, 71, 71);
     text-decoration-color: rgb(71, 71, 71);
