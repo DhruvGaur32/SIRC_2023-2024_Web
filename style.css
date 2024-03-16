@@ -280,7 +280,10 @@ nav ul li a:hover {
     margin: 0.4vh;
     transition: transform 0.5s, color 0.25s;
 }
-
+#contact>a>h2 {
+    margin: 0.4vh;
+    transition: transform 0.5s, color 0.25s;
+}
 #contact:hover {
     border-color: rgb(122, 122, 122);
 }
