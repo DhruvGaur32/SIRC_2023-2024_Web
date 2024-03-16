@@ -6,6 +6,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ul li {
     list-style: none;
 
@@ -36,7 +40,7 @@ ul li {
     transition: border-color 0.5s;
 }
 
-.home {
+#home {
     height: 90%;
     margin: 2% 5%;
     display: flex;
@@ -146,7 +150,7 @@ nav ul li a:hover {
 
 }
 
-.about {
+#about {
     height: max-content;
     margin: 4vw;
     padding-bottom: 5vh;
@@ -160,7 +164,7 @@ nav ul li a:hover {
     transition: border-color 0.5s;
 }
 
-.about>h1 {
+#about>h1 {
     text-align: center;
     margin: 1vh 1vw;
     padding-top: 5vh;
@@ -241,7 +245,7 @@ nav ul li a:hover {
 #Hobbies:hover {
     transform: translateY(-0.5vw);
     background-color: #42a5f5;
-      color: whitesmoke;
+    color: whitesmoke;
     border-color: #7ac0f9;
 
 }
@@ -280,15 +284,17 @@ nav ul li a:hover {
     margin: 0.4vh;
     transition: transform 0.5s, color 0.25s;
 }
+
 #contact>a>h2 {
     margin: 0.4vh;
     transition: transform 0.5s, color 0.25s;
 }
+
 #contact:hover {
     border-color: rgb(122, 122, 122);
 }
 
-.about:hover {
+#about:hover {
     border-color: rgb(122, 122, 122);
 }
 
@@ -304,10 +310,12 @@ nav ul li a:hover {
     transform: translateY(-0.5vh);
     color: black;
 }
+
 #contact>a>h2:hover {
     transform: translateY(-0.5vh);
     color: black;
 }
+
 #contact>a {
     color: rgb(71, 71, 71);
     text-decoration-color: rgb(71, 71, 71);
